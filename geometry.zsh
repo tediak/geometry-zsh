@@ -112,7 +112,7 @@ geometry::rprompt() {
 
 geometry::prompt() {
   GEOMETRY[LAST_STATUS]="$status"
-  PROMPT=" $(geometry::wrap $PWD $GEOMETRY_PROMPT) "
+  PROMPT="$(geometry::wrap $PWD $GEOMETRY_PROMPT) "
   geometry::rprompt
 }
 
